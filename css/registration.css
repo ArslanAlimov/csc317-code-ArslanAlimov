@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url("https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png");
+  background-color: rgb(189, 188, 188); 
+  height: 500px; 
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: 150%; 
+ }
+form, .content {
+color: lightblue;
+  width: 60%;
+  margin: 0px auto;
+  margin-top: 15%;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  background: rgba(139, 139, 139, 0.404);
+  border-radius: 30px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.btn {
+  padding: 5px;
+  font-size: 15px;
+  color:lightblue;
+background-color: rgba(139, 139, 139, 0.404);
+  border: none;
+  border-radius: 30px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+input[type=text] {
+
+  color: lightblue;
+}
+input[type=password] {
+ 
+  color: lightblue;
+}
+h1 {
+  display: block;
+
+  font-size: 2em;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color: rgb(107, 192, 223);
+}
+a {
+
+  color: lightblue;
+}
+a:hover, a:active {
+background-color: rgba(167, 0, 167, 0.26);
+}

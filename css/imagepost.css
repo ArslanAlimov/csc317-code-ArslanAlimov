@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png");
+    background-color: black;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+
+}
+
+h1.Title {
+
+    font-size: 20px;
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+.row {
+    margin-top: 15%;
+    font-family: bilo, sans-serif;
+    border: thin solid;
+    border-color: lightblue;
+    border-radius: 100px;
+    background-color: rgba(139, 139, 139, 0.404);
+    padding: 1%;
+    margin-left: 25%;
+    margin-right: 30%;
+    font-size: 21px;
+    text-align: center;
+    position: relative;
+    width: 50%;
+    color: lightblue;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.Image {
+    box-shadow: 10px 10px 15px rgba(173, 216, 230, 0.438);
+    font-family: bilo, sans-serif;
+    border: thick solid;
+    border-radius: 100px;
+    padding: 5%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.information {
+    background-color: rgba(139, 139, 139, 0.404);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 0;
+    border-radius: 100px;
+    height: 100%;
+    transition: .5s ease;
+    background-image: url("https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png");
+}
+
+.row:hover .information {
+    background-color: rgba(139, 139, 139, 0.404);
+    width: 100%;
+    text-align: center;
+}
+.titleofPage{
+    color: rgb(107, 192, 223);
+}
+.text {
+    color: rgb(107, 192, 223);
+    white-space: nowrap;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}

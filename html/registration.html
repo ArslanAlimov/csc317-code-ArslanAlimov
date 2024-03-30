@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Registration Page</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../CSS/registration.css">
+</head>
+<body> 
+<form id="RegForm" onsubmit="event.preventDefault(); validateReg();">
+<center> <h1> Registration Page </h1> </center> 
+<label for="username"><b>Username</b></label>
+<input type="text" placeholder="Enter Username" id="username" required>  
+<label for="email"><b>Email</b></label>
+<input type="text" placeholder="Enter mail" id="email" required>  
+<label for="password"><b>Password</b></label> 
+<input type="password" placeholder="Enter Password" id="password" required>
+<label for="confpassword"><b>Confirm Password</b></label> 
+<input type="password" placeholder="Confirm Password" id="confpassword" required>
+<div class="checkbox">
+<label><input type="checkbox" id="age" required>I am 13 years old</label>
+</div>
+<div class="checkbox">
+<label><input type="checkbox" id="rules" required> <a href="https://github.com/"> TOS and Privacy Rules</a></label>
+</div>
+<button type="submit" class="btn" id="Submit">Register</button>
+    <div class="container">
+      <h4 id="message"></h4>
+    </div>
+</form>
+  <script src="../js/registration.js"></script>
+</body>
+</html>
